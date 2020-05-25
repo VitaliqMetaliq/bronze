@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<ArrayOfWorker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Worker>
+    <Workers />
+    <CurrentProjects>4</CurrentProjects>
+    <Salary>40000</Salary>
+    <Id>1</Id>
+    <Name>Владимир</Name>
+    <Surname>Маяковский</Surname>
+    <Age>32</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>2</CurrentProjects>
+    <Salary>20000</Salary>
+    <Id>2</Id>
+    <Name>Сергей</Name>
+    <Surname>Есенин</Surname>
+    <Age>27</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>2</CurrentProjects>
+    <Salary>20000</Salary>
+    <Id>3</Id>
+    <Name>Александр</Name>
+    <Surname>Блок</Surname>
+    <Age>43</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>10000</Salary>
+    <Id>4</Id>
+    <Name>Мария</Name>
+    <Surname>Цветаева</Surname>
+    <Age>29</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>2</CurrentProjects>
+    <Salary>20000</Salary>
+    <Id>5</Id>
+    <Name>Лев</Name>
+    <Surname>Толстой</Surname>
+    <Age>53</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>3</CurrentProjects>
+    <Salary>20000</Salary>
+    <Id>6</Id>
+    <Name>Фёдор</Name>
+    <Surname>Достоевский</Surname>
+    <Age>63</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>40000</Salary>
+    <Id>7</Id>
+    <Name>Эрих-Мария</Name>
+    <Surname>Ремарк</Surname>
+    <Age>41</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>20000</Salary>
+    <Id>8</Id>
+    <Name>Виктор</Name>
+    <Surname>Пелевин</Surname>
+    <Age>31</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>3</CurrentProjects>
+    <Salary>20000</Salary>
+    <Id>9</Id>
+    <Name>Иосиф</Name>
+    <Surname>Бродский</Surname>
+    <Age>38</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>10000</Salary>
+    <Id>10</Id>
+    <Name>Иван</Name>
+    <Surname>Бунин</Surname>
+    <Age>38</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>40000</Salary>
+    <Id>11</Id>
+    <Name>Борис</Name>
+    <Surname>Пастернак</Surname>
+    <Age>32</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>20000</Salary>
+    <Id>12</Id>
+    <Name>Александр</Name>
+    <Surname>Солженицин</Surname>
+    <Age>29</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>50000</Salary>
+    <Id>13</Id>
+    <Name>Михаил</Name>
+    <Surname>Шолохов</Surname>
+    <Age>42</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>4</CurrentProjects>
+    <Salary>10000</Salary>
+    <Id>14</Id>
+    <Name>Леонид</Name>
+    <Surname>Стругацкий</Surname>
+    <Age>42</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>2</CurrentProjects>
+    <Salary>40000</Salary>
+    <Id>15</Id>
+    <Name>Борис</Name>
+    <Surname>Стругацкий</Surname>
+    <Age>39</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>4</CurrentProjects>
+    <Salary>40000</Salary>
+    <Id>16</Id>
+    <Name>Новый</Name>
+    <Surname>Сотрудник</Surname>
+    <Age>1</Age>
+  </Worker>
+</ArrayOfWorker>

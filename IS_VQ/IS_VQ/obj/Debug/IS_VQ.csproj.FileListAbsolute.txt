@@ -1,0 +1,34 @@
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\obj\Debug\IS_VQ.csprojAssemblyReference.cache
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\obj\Debug\MainWindow.g.cs
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\obj\Debug\App.g.cs
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\obj\Debug\IS_VQ_MarkupCompile.cache
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\obj\Debug\IS_VQ_MarkupCompile.lref
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\bin\Debug\IS_VQ.exe.config
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\bin\Debug\IS_VQ.exe
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\bin\Debug\IS_VQ.pdb
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\obj\Debug\MainWindow.baml
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\obj\Debug\IS_VQ.g.resources
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\obj\Debug\IS_VQ.Properties.Resources.resources
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\obj\Debug\IS_VQ.csproj.GenerateResource.cache
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\obj\Debug\IS_VQ.exe
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\obj\Debug\IS_VQ.pdb
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vital\source\repos\IS_VQ\IS_VQ\obj\Debug\IS_VQ.csproj.CopyComplete
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\bin\Debug\IS_VQ.exe.config
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\bin\Debug\IS_VQ.exe
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\bin\Debug\IS_VQ.pdb
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\bin\Debug\Newtonsoft.Json.dll
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\bin\Debug\Newtonsoft.Json.xml
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\obj\Debug\IS_VQ.csprojAssemblyReference.cache
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\obj\Debug\MainWindow.g.cs
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\obj\Debug\App.g.cs
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\obj\Debug\IS_VQ_MarkupCompile.cache
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\obj\Debug\IS_VQ_MarkupCompile.lref
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\obj\Debug\MainWindow.baml
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\obj\Debug\IS_VQ.g.resources
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\obj\Debug\IS_VQ.Properties.Resources.resources
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\obj\Debug\IS_VQ.csproj.GenerateResource.cache
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\obj\Debug\IS_VQ.csproj.CopyComplete
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\obj\Debug\IS_VQ.exe
+D:\Skillbox\My HomeWorks\IS_VQ\IS_VQ\obj\Debug\IS_VQ.pdb

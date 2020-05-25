@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<ArrayOfWorker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>40000</Salary>
+    <Id>1</Id>
+    <Name>Егор</Name>
+    <Surname>Летов</Surname>
+    <Age>27</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>4</CurrentProjects>
+    <Salary>50000</Salary>
+    <Id>2</Id>
+    <Name>Владимир</Name>
+    <Surname>Высоцкий</Surname>
+    <Age>40</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>50000</Salary>
+    <Id>3</Id>
+    <Name>Александр</Name>
+    <Surname>Васильев</Surname>
+    <Age>30</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>2</CurrentProjects>
+    <Salary>30000</Salary>
+    <Id>4</Id>
+    <Name>Александр</Name>
+    <Surname>Башлачев</Surname>
+    <Age>33</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>50000</Salary>
+    <Id>5</Id>
+    <Name>Михаил </Name>
+    <Surname>Круг</Surname>
+    <Age>51</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>2</CurrentProjects>
+    <Salary>30000</Salary>
+    <Id>6</Id>
+    <Name>Александр</Name>
+    <Surname>Костюшкин</Surname>
+    <Age>39</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>40000</Salary>
+    <Id>7</Id>
+    <Name>Виктор</Name>
+    <Surname>Цой</Surname>
+    <Age>32</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>30000</Salary>
+    <Id>8</Id>
+    <Name>Рихард</Name>
+    <Surname>Вагнер</Surname>
+    <Age>29</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>50000</Salary>
+    <Id>9</Id>
+    <Name>Земфира</Name>
+    <Surname>Рамазанова</Surname>
+    <Age>26</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>4</CurrentProjects>
+    <Salary>50000</Salary>
+    <Id>10</Id>
+    <Name>Александр</Name>
+    <Surname>Уман</Surname>
+    <Age>49</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>2</CurrentProjects>
+    <Salary>10000</Salary>
+    <Id>11</Id>
+    <Name>Леонид </Name>
+    <Surname>Федоров</Surname>
+    <Age>33</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>2</CurrentProjects>
+    <Salary>30000</Salary>
+    <Id>12</Id>
+    <Name>Яна</Name>
+    <Surname>Дягелева</Surname>
+    <Age>29</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>40000</Salary>
+    <Id>13</Id>
+    <Name>Юрий</Name>
+    <Surname>Шевчук</Surname>
+    <Age>40</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>4</CurrentProjects>
+    <Salary>10000</Salary>
+    <Id>14</Id>
+    <Name>Сергей</Name>
+    <Surname>Шнур</Surname>
+    <Age>32</Age>
+  </Worker>
+  <Worker>
+    <Workers />
+    <CurrentProjects>1</CurrentProjects>
+    <Salary>30000</Salary>
+    <Id>15</Id>
+    <Name>Борис</Name>
+    <Surname>Гребенщиков</Surname>
+    <Age>27</Age>
+  </Worker>
+</ArrayOfWorker>
