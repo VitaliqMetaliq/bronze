@@ -1,0 +1,11 @@
+D:\Projects\MyTestApplication\MyTestApplication\bin\Debug\MyTestApplication.exe.config
+D:\Projects\MyTestApplication\MyTestApplication\bin\Debug\MyTestApplication.exe
+D:\Projects\MyTestApplication\MyTestApplication\bin\Debug\MyTestApplication.pdb
+D:\Projects\MyTestApplication\MyTestApplication\obj\Debug\MyTestApplication.csprojAssemblyReference.cache
+D:\Projects\MyTestApplication\MyTestApplication\obj\Debug\MyTestApplication.Form1.resources
+D:\Projects\MyTestApplication\MyTestApplication\obj\Debug\MyTestApplication.Properties.Resources.resources
+D:\Projects\MyTestApplication\MyTestApplication\obj\Debug\MyTestApplication.csproj.GenerateResource.cache
+D:\Projects\MyTestApplication\MyTestApplication\obj\Debug\MyTestApplication.exe
+D:\Projects\MyTestApplication\MyTestApplication\obj\Debug\MyTestApplication.pdb
+D:\Projects\MyTestApplication\MyTestApplication\obj\Debug\MyTestApplication.addForm.resources
+D:\Projects\MyTestApplication\MyTestApplication\obj\Debug\MyTestApplication.sampleForm.resources
