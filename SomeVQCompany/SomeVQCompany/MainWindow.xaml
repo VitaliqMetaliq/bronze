@@ -1,0 +1,120 @@
+﻿<Window x:Class="SomeVQCompany.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SomeVQCompany"
+        mc:Ignorable="d"
+        Title="SomeVQCompany" Height="600" Width="830">
+    <Window.Resources>
+        <Style x:Key="WhiteAndGray">
+            <Setter Property="Control.Background">
+                <Setter.Value>
+                    <RadialGradientBrush>
+                        <RadialGradientBrush.GradientStops>
+                            <GradientStop Color="White" Offset="0" />
+                            <GradientStop Color="LightGray" Offset="1" />
+                        </RadialGradientBrush.GradientStops>
+                    </RadialGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Control.FontFamily" Value="Verdana" />
+            <Setter Property="Control.Foreground" Value="Black" />
+            <Setter Property="Control.Margin" Value="5" />
+        </Style>
+        <Style x:Key="BackgroundNullStyle">
+            <Setter Property="ItemsControl.Background" Value="{x:Null}"/>
+            <Setter Property="ItemsControl.BorderBrush" Value="{x:Null}"/>
+        </Style>
+        <Style x:Key="ButtonCommonStyle">
+            <Setter Property="ItemsControl.Margin" Value="5"/>
+            <Setter Property="ItemsControl.Width" Value="70"/>
+            <Setter Property="ItemsControl.Height" Value="25"/>
+            <Setter Property="ItemsControl.HorizontalAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="430"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="180"/>
+        </Grid.RowDefinitions>
+        <GroupBox Header="Структура организации" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <TreeView x:Name="DepartmentsTreeView" Margin="5" BorderThickness="0" TreeViewItem.Selected="DepartmentsTreeView_Selected" Background="{x:Null}" PreviewMouseDoubleClick="DepartmentsTreeView_PreviewMouseDoubleClick">
+                <TreeView.ItemTemplate>
+                    <HierarchicalDataTemplate ItemsSource ="{Binding Path=Departments}">
+                        <TextBlock Text="{Binding Name}"/>
+                    </HierarchicalDataTemplate>
+                </TreeView.ItemTemplate>
+            </TreeView>
+        </GroupBox>
+        <Button x:Name="saveButton" Content="Сохранить" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Stretch" Margin="5" Width="80" Click="saveButton_Click"/>
+        <GroupBox Header="{Binding ElementName=DepartmentsTreeView, Path=SelectedItem.Name}" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <StackPanel Margin="5" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <GroupBox Header="Руководитель" HorizontalContentAlignment="Stretch">
+                    <StackPanel Orientation="Horizontal" Margin="5">
+                        <TextBlock x:Name="ChiefInfoBox" Margin="5" FontSize="14"/>
+                        <TextBlock x:Name="ChiefSalaryBox" Margin="5" FontSize="14"/>
+                        <TextBlock x:Name="Dollar" Margin="5" FontSize="14"/>
+                    </StackPanel>
+                </GroupBox>
+
+                <ListView ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="False" x:Name="WorkersListView" VerticalAlignment="Stretch" SelectionMode="Single" SelectionChanged="WorkersListView_SelectionChanged" Height="258">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="ID" Width="50" DisplayMemberBinding="{Binding Id}"/>
+                            <GridViewColumn Header="Должность" Width="65" DisplayMemberBinding="{Binding Status}"/>
+                            <GridViewColumn Header="Имя" Width="70" DisplayMemberBinding="{Binding FirstName}"/>
+                            <GridViewColumn Header="Фамилия" Width="90" DisplayMemberBinding="{Binding LastName}"/>
+                            <GridViewColumn Header="Возраст" Width="60" DisplayMemberBinding="{Binding Age}"/>
+                            <GridViewColumn Header="Зарплата, $" Width="70" DisplayMemberBinding="{Binding Salary}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Управление сотрудниками" Grid.Row="1" Grid.Column="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+            <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="2" Margin="5" VerticalAlignment="Stretch" HorizontalAlignment="Center">
+                <Button x:Name="AddButton" Content="Добавить" Style="{StaticResource ButtonCommonStyle}" Click="AddButton_Click"/>
+                <Button x:Name="DeleteButton" Content="Удалить" Style="{StaticResource ButtonCommonStyle}" Click="DeleteButton_Click"/>
+                <!--<Button x:Name="RaiseButton" Content="Raise" Style="{StaticResource ButtonCommonStyle}" Click="RaiseButton_Click"/>-->
+                <TextBox x:Name="nameBox" Margin="5" Width="90"/>
+                <TextBox x:Name="surnameBox" Margin="5" Width="90"/>
+                <TextBox x:Name="ageBox" Margin="5" Width="90"/>
+                <Button x:Name="renameWorkerButton" Margin="5" Content="Изменить" Style="{StaticResource ButtonCommonStyle}" Click="renameWorkerButton_Click"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Управление департаментами" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="0" Margin="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <TextBox x:Name="DepartmentNameTextBox" Text="Название департамента" HorizontalAlignment="Stretch" Margin="5"/>
+                <Button x:Name="AddDepartmentButton" Content="Добавить" Style="{StaticResource ButtonCommonStyle}" Click="AddDepartmentButton_Click"/>
+                <Button x:Name="RenameDepButton" Content="Изменить" Style="{StaticResource ButtonCommonStyle}" Click="RenameDepButton_Click"/>
+                <Button x:Name="DeleteDepartmentButton" Content="Удалить" Style="{StaticResource ButtonCommonStyle}" Click="DeleteDepartmentButton_Click"/>
+                <!--<Button x:Name="AddRootDepButton" Content="AddRoot" Style="{StaticResource ButtonCommonStyle}" Click="AddRootDepButton_Click"/>-->
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Нераспределенные работники" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <ListView x:Name="unallocatedWorkersListView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5" SelectionMode="Single" SelectionChanged="WorkersListView_SelectionChanged" Background="{x:Null}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="ID" Width="50" DisplayMemberBinding="{Binding Id}"/>
+                        <GridViewColumn Header="Должность" Width="65" DisplayMemberBinding="{Binding Status}"/>
+                        <GridViewColumn Header="Имя" Width="70" DisplayMemberBinding="{Binding FirstName}"/>
+                        <GridViewColumn Header="Фамилия" Width="90" DisplayMemberBinding="{Binding LastName}"/>
+                        <GridViewColumn Header="Возраст" Width="60" DisplayMemberBinding="{Binding Age}"/>
+                        <GridViewColumn Header="Зарплата, $" Width="70" DisplayMemberBinding="{Binding Salary}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </GroupBox>
+        <GroupBox Header="Распределение" Grid.Row="2" Grid.Column="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+            <Button x:Name="allocateButton" Content="Распределить" HorizontalAlignment="Center" VerticalAlignment="Center" Click="allocateButton_Click"/>
+        </GroupBox>
+    </Grid>
+</Window>

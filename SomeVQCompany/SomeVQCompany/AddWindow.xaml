@@ -1,0 +1,29 @@
+﻿<Window x:Class="SomeVQCompany.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SomeVQCompany"
+        mc:Ignorable="d"
+        Title="Добавление сотрудника" Height="300" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="220"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Информация о сотруднике" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <StackPanel HorizontalAlignment="Center" Height="130" Margin="10,9.6,166.6,0" Grid.Row="1" VerticalAlignment="Top" Width="217">
+            <TextBox x:Name="inputNameBox" Text="Имя" Margin="5" FontSize="16" GotFocus="inputNameBox_GotFocus"/>
+            <TextBox x:Name="inputSurnameBox" Text="Фамилия" Margin="5" FontSize="16" GotFocus="inputSurnameBox_GotFocus"/>
+            <TextBox x:Name="inputAgeBox" Text="Возраст" Margin="5" FontSize="16" GotFocus="inputAgeBox_GotFocus"/>
+            <CheckBox x:Name="assignCheckBox" Content="Не распределенный сотрудник" Margin="5" Height="43" VerticalAlignment="Stretch"/>
+        </StackPanel>
+        <Button x:Name="AddButton" Content="Добавить" HorizontalAlignment="Left" Margin="45,168.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="112" Height="26" Click="AddButton_Click"/>
+        <Button x:Name="CancelButton" Content="Отмена" HorizontalAlignment="Left" Margin="234,168.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="112" Height="26" IsCancel="True"/>
+        <StackPanel HorizontalAlignment="Left" Height="130" Margin="251,9.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="112">
+            <RadioButton x:Name="junCheck" Content="Junior" GroupName="positionCheckGroup" Margin="5"/>
+            <RadioButton x:Name="midCheck" Content="Middle" GroupName="positionCheckGroup" Margin="5"/>
+            <RadioButton x:Name="tleadCheck" Content="TeamLead" GroupName="positionCheckGroup" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
