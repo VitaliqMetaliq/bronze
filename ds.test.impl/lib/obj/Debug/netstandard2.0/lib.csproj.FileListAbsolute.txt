@@ -1,0 +1,8 @@
+D:\Projects\ds.test.impl\lib\bin\Debug\netstandard2.0\lib.deps.json
+D:\Projects\ds.test.impl\lib\bin\Debug\netstandard2.0\lib.dll
+D:\Projects\ds.test.impl\lib\obj\Debug\netstandard2.0\lib.csprojAssemblyReference.cache
+D:\Projects\ds.test.impl\lib\obj\Debug\netstandard2.0\lib.AssemblyInfoInputs.cache
+D:\Projects\ds.test.impl\lib\obj\Debug\netstandard2.0\lib.AssemblyInfo.cs
+D:\Projects\ds.test.impl\lib\bin\Debug\netstandard2.0\lib.pdb
+D:\Projects\ds.test.impl\lib\obj\Debug\netstandard2.0\lib.dll
+D:\Projects\ds.test.impl\lib\obj\Debug\netstandard2.0\lib.pdb
